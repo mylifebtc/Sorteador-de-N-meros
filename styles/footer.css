@@ -1,0 +1,23 @@
+.text > h3 {
+ color: var(--content-brand);
+ font-size: 0.875rem;
+ line-height: 150%;
+ font-weight: medium;
+ font-family: "Roboto Flex", sans-serif;
+}
+
+.text > p {
+ color: var(--content-secondary);
+ font-size: 0.75rem;
+ line-height: 150%;
+ font-weight: medium;
+ font-family: "Roboto Flex", sans-serif;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  margin-bottom: 2.75rem;
+  align-items: start;
+  text-align: left;
+}

@@ -1,0 +1,118 @@
+#result {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+#result h3 {
+  color: var(--content-primary);
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+}
+#result h4 {
+  color: var(--content-secondary);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", sans-serif;
+}
+#result .numbers {
+  font-size: 3rem;
+  color: var(--content-brand);
+  margin-block: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#sortear-novamente {
+  text-align: center;
+  background-color: var(--background-tertiary);
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.25rem;
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+
+  & span {
+    margin-left: .5rem;
+  }
+}
+#sortear-novamente:hover {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+  border-image-slice: 1;
+  outline: none;
+}
+
+
+#result-desktop {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result-desktop h3 {
+  color: var(--content-primary);
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+}
+#result-desktop h4 {
+  color: var(--content-secondary);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", sans-serif;
+}
+#result-desktop .numbers {
+  font-size: 3rem;
+  color: var(--content-brand);
+  margin-block: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#sortear-novamente-desktop {
+  text-align: center;
+  background-color: var(--background-tertiary);
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.25rem;
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+
+  & span {
+    margin-left: .5rem;
+  }
+}
+#sortear-novamente-desktop:hover {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+  border-image-slice: 1;
+  outline: none;
+}
+

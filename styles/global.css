@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 :root{
@@ -25,4 +26,22 @@
 
 body {
   background-color: var(--background-primary);
+  background-image: url(/assets/back-img.svg);
+  background-size: 80% 120%;
+  background-position: end;
+}
+
+.desktop-only {
+  display: none;
+}
+
+
+@media (width >= 75em) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+  }
 }
