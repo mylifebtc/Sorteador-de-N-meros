@@ -14,43 +14,13 @@
     <img src="assets/logo.svg" alt="">
   </div>
 
-  <div class="container mobile-only">
-    <header>
-      <h3>Online - gratuito</h3>
-      <h1>Sorteador de números</h1>
-    </header>
-    <main>
-      <h2>Quero sortear:</h2>
-      <p>
-        Defina o intervalo e a quantidade de números,<br> clique em "Sortear" e veja os resultados na tela. É<br> rápido e fácil!
-      </p>
-    </main>
-      <form id="sorteador-form">
-        <div class="">
-          <div class="input-box">
-            <div class="sorteador-1">
-              <label>Números</label>
-              <input type="number" name="number1" id="num1" class="input-numb" required>
-              
-            </div>
-            <div class="sorteador-2">
-              <label>De</label>
-              <input type="number" name="number2" id="num2" class="input-numb" required>
-            </div>
-            <div class="sorteador-3">
-              <label>Até</label>
-              <input type="number" name="number3" id="num3" class="input-numb" required>
-            </div>
-          </div>
-          <div class="toggle-container">
-            <div class="toggle-switch" id="toggleSwitch" onclick="toggleRepetir()"></div>
-            <span class="toggle-label" id="toggleLabel">Repetir número</span>
-          </div>
-        </div>
-        <button id="btn" onclick="sortear(event)">Sortear <span><img src="assets/arrow-right.svg" alt="arrow-right"></span></button>
-      </form>
-      <div id="result"></div>
-      <div class="footer">
+  <div class="container">
+    <div class="first-page">
+      <header>
+        <h3>Online - gratuito</h3>
+        <h1>Sorteador <br> de números</h1>
+      </header>
+      <div class="footers desktop-only">
         <footer>
           <div id="questions">
             <div id="footer">
@@ -79,8 +49,70 @@
         </footer>
       </div>
     </div>
+    
+      <form id="sorteador-form">
+        <div class="form-container">
+        <main>
+          <h2>Quero sortear:</h2>
+          <p>
+            Defina o intervalo e a quantidade de números,<br> clique em "Sortear" e veja os resultados na tela. É<br> rápido e fácil!
+          </p>
+        </main>
+          <div class="input-box">
+            <div class="sorteador-1">
+              <label>Números</label>
+              <input type="number" name="number1" id="num1" class="input-numb" required>
+              
+            </div>
+            <div class="sorteador-2">
+              <label>De</label>
+              <input type="number" name="number2" id="num2" class="input-numb" required>
+            </div>
+            <div class="sorteador-3">
+              <label>Até</label>
+              <input type="number" name="number3" id="num3" class="input-numb" required>
+            </div>
+          </div>
+          <div class="toggle-container">
+            <div class="toggle-switch" id="toggleSwitch" onclick="toggleRepetir()"></div>
+            <span class="toggle-label" id="toggleLabel">Repetir número</span>
+          </div>
+        </div>
+        <button id="btn" onclick="sortear(event)">Sortear <span><img src="assets/arrow-right.svg" alt="arrow-right"></span></button>
+      </form>
+      <div id="result"></div>
+      <div class="footers mobile-only">
+        <footer>
+          <div id="questions">
+            <div id="footer">
+              <img src="assets/question.svg" alt="question">
+              <div class="text">
+                <h3>
+                  Como funciona o sorteador de números?
+                </h3>
+                <p>
+                  O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.
+                </p>
+              </div>
+            </div>
+            <div id="footer">
+              <img src="assets/question.svg" alt="question">
+              <div class="text">
+                <h3>
+                  Posso escolher o intervalo dos números?
+                </h3>
+                <p>
+                  Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    </body>
 
-  <div class="container desktop-only">
+  <!-- <div class="container desktop-only">
     <header>
       <h3>Online - gratuito</h3>
       <h1>Sorteador <br> de números</h1>
@@ -146,7 +178,7 @@
     </form>
     <div id="result-desktop"></div>
     
-  </div>
+  </div> -->
   <!-- </div> -->
 
   <script src="scripts.js"></script>
